@@ -1,0 +1,15 @@
+Student Roll,Student email,Book ISBN,Book Title,Issued_on,Returned_on
+202010181,atb020@nist.edu,1SJAVAPE02,Java DSA,2023-05-17
+202010181,atb020@nist.edu,1SJAVAPE02,Java DSA,2023-05-18
+202010022,scd020@nist.edu,MPMC001ECE,Micro Processor & Micro Controller,2023-05-18
+202010022,MPMC001ECE,Micro Processor & Micro Controller,,2023-05-18
+202010181,atb020@nist.edu,MPMC001ECE,Micro Processor & Micro Controller,2023-05-18
+202010181,MPMC001ECE,Micro Processor & Micro Controller,,2023-05-18
+202010181,atb020@nist.edu,1SJAVAPE02,Java DSA,2023-05-19
+202010181,atb020@nist.edu,MPMC001ECE,Micro Processor & Micro Controller,2023-05-19
+202010181,MPMC001ECE,Micro Processor & Micro Controller,,2023-05-19
+202010180,tanu@gmail.com,MPMC001ECE,Micro Processor & Micro Controller,2023-05-20
+202010181,atb020@nist.edu,1SJAVAPE02,Java DSA,2023-05-22
+202010181,1SJAVAPE02,Java DSA,,2023-05-22
+234,tomc23@gmail.com,19CSDEC01,Digital Electronics,2023-05-22
+234,19CSPEDEC,Digital Electronics,,2023-05-22

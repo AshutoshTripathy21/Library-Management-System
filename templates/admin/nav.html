@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    /* Style the navigation bar */
+    nav {
+      backdrop-filter: blur(10px);
+      color: #fff;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Style the logo */
+    .logo {
+      color: #bce6f6;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    /* Style the navigation links */
+    .nav-links {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    /* Style the individual navigation items */
+    .nav-links li {
+      margin: 0 10px;
+    }
+
+    /* Style the links */
+    .nav-links li a {
+      color: #bce6f6;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    /* Add hover effect to the links */
+    .nav-links li a:hover {
+      color: rgba(2, 18, 27, 0.581);
+    }
+
+    /* Style the dropdown */
+    .dropdown {
+      position: relative;
+    }
+
+    /* Style the dropdown content */
+    .dropdown-content {
+      color: black;
+      display: none;
+      position: absolute;
+      background-color: linear-gradient(90deg, #2f3a21, #73ede7);
+      ;
+      background: linear-gradient(90deg, #2f3a21, #2d476e7f);
+      backdrop-filter: blur(5px);
+      min-width: 120px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    /* Show the dropdown content on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .nav-links .log li a {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background: linear-gradient(90deg, #141e30, #243b55);
+      backdrop-filter: blur(10px);
+      color: #fff;
+      font-family: inherit;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul class="nav-links">
+    <li><a href="/admin/students">Students</a></li>
+      <li><a href="/admin/add_book">Add Book</a></li>
+      <li><a href="/admin/books">Books</a></li>
+      <li><a href="/admin/issue_books">Issued Books</a></li>
+      <div class="log">
+        <li><a href="/admin/logout">Log Out</a></li>
+      </div>
+    </ul>
+  </nav>
+</body>
+
+</html>

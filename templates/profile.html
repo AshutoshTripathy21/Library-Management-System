@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background: linear-gradient(#141e30, #243b55);
+        }
+    </style>
+</head>
+<body>
+    <h1>Profile</h1>
+    <h2>Student Information:</h2>
+    <p>Name: {{ student['name'] }}</p>
+    <p>Email: {{ student['email'] }}</p>
+    <p>Roll: {{ student['roll'] }}</p>
+    <p>Branch: {{ student['branch'] }}</p>
+    <p>Batch: {{ student['batch'] }}</p>
+    <p>Books Issued: {{ student['books_issued'] }}</p>
+    <p>Total Books: {{ student['total_books'] }}</p>
+
+    <h2>Issued Books:</h2>
+    {% if issued_books %}
+        <ul>
+        {% for book in issued_books %}
+            <li>{{ book['title'] }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No books issued.</p>
+    {% endif %}
+</body>
+</html>
